@@ -83,9 +83,9 @@ export default function Home() {
     <main className="min-h-screen bg-gray-950 py-10 px-4">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-white mb-2">
-          Union Arena Tier List
+          HongKong Union Arena Tier List
         </h1>
-        <p className="text-center text-gray-400 mb-12">Malaysia Meta Deck Analysis</p>
+        <p className="text-center text-gray-400 mb-12">[Updated: 03/07/2026]</p>
 
         {Object.entries(tierData).map(([tier, decks]) => (
           <div key={tier} className="mb-12">
