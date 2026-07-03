@@ -16,67 +16,67 @@ export default function Home() {
       { name: "皇帝", image: "/images/roze.jpeg" },
     ],
 
-    "T1.5": [
+    // 將鍵名改為 T1_5，避免編譯時的潛在問題
+    T1_5: [
       { name: "劍心", image: "/images/kenshin.jpeg" },
       { name: "嬴政", image: "/images/red-king.jpeg" },
       { name: "犬夜叉", image: "/images/dog.jpeg" },
-     { name: "WILLE", image: "/images/wille.jpeg" },
+      { name: "WILLE", image: "/images/wille.jpeg" },
       { name: "蓋烏斯", image: "/images/purple-eva.jpeg" },
       { name: "Walkure", image: "/images/walkure.jpeg" },
       { name: "Δ小隊", image: "/images/delta-team.jpeg" },
       { name: "尤娜", image: "/images/uta.PNG" },
       { name: "艾莉絲", image: "/images/eris.jpeg" },
       { name: "洛琪希&盧迪", image: "/images/roxy.jpeg" },
-       { name: "早乙女", image: "/images/aruto.PNG" },
-       { name: "自爆機", image: "/images/281_deck.webp" },
+      { name: "早乙女", image: "/images/aruto.PNG" },
+      { name: "自爆機", image: "/images/281_deck.webp" },
       { name: "雪露&蘭卡", image: "/images/sherly-ranka.webp" },
       { name: "雪露", image: "/images/sherly.PNG" },
       { name: "汗明", image: "/images/ganmen.PNG" },
       { name: "灰姑娘", image: "/images/cinderella.PNG" },
-       { name: "坂本&平助", image: "/images/sakamoto.jpeg" },
+      { name: "坂本&平助", image: "/images/sakamoto.jpeg" },
       { name: "黃EVA", image: "/images/yellow-eva.PNG" },
     ],
 
-     "T2": [
-      { name: "米西利斯",image: "/images/IMG_8768.PNG" },
+    T2: [
+      { name: "米西利斯", image: "/images/IMG_8768.PNG" },
       { name: "魔法大學", image: "/images/395_deck.webp" },
       { name: "W", image: "/images/IMG_8748.PNG" },
-     { name: "GGO", image: "/images/IMG_8800.PNG" },
+      { name: "GGO", image: "/images/IMG_8800.PNG" },
       { name: "致命兔", image: "/images/IMG_8789.PNG" },
       { name: "無窮之鎖", image: "/images/IMG_8752.PNG" },
       { name: "一年級", image: "/images/IMG_8749.PNG" },
       { name: "三年級", image: "/images/IMG_8750.PNG" },
       { name: "小圓", image: "/images/240_deck.webp" },
       { name: "克萊兒", image: "/images/382_deck.webp" },
-       { name: "蘿絲&阿萊克西亞", image: "/images/383_deck.webp" },
+      { name: "蘿絲&阿萊克西亞", image: "/images/383_deck.webp" },
       { name: "Roze", image: "/images/277_deck.webp" },
       { name: "蘭卡", image: "/images/IMG_8821.PNG" },
       { name: "金色之闇", image: "/images/IMG_8778.PNG" },
       { name: "ofa", image: "/images/185_deck.webp" },
-       { name: "坂本商店", image: "/images/sakamotoshop.jpeg" },
-        { name: "大佛&神神廻", image: "/images/IMG_8782.PNG" },
-         { name: "月山習", image: "/images/IMG_8755.PNG" },
-         { name: "七陰", image: "/images/381_deck.webp" },
-         { name: "齋藤一", image: "/images/IMG_8761.PNG" },
-           { name: "瑪奇瑪", image: "/images/386_deck.webp" },
-       { name: "忍野忍", image: "/images/IMG_8816.PNG" },
-          { name: "碧翠絲", image: "/images/IMG_8819.PNG" },
-          { name: "補習組", image: "/images/IMG_8766.PNG" },
-            { name: "學生會", image: "/images/IMG_8834.PNG" },
-             { name: "蕾姆&昂", image: "/images/IMG_8762.PNG" },
-              { name: "藍rider", image: "/images/340_5deck.webp" },
-               { name: "飛信隊", image: "/images/IMG_1425.PNG" },
-               { name: "清夏&莉莉婭", image: "/images/207_deck.webp" },
-               { name: "米利安", image: "/images/283_deck.webp" },
-               { name: "早川秋&姬野", image: "/images/385_deck.webp" },
-               { name: "彌勒", image: "/images/389_deck.webp" },
-                 { name: "信號機", image: "/images/IMG_8423.PNG" },
-                   { name: "千礦&伯理", image: "/images/IMG_8744.PNG" },
-                    { name: "CCG", image: "/images/IMG_8756.PNG" },
-                      { name: "Fire Bomber", image: "/images/IMG_8786.PNG" },
-     { name: "進擊的巨人", image: "/images/IMG_8796.PNG" },
-
-    ], 
+      { name: "坂本商店", image: "/images/sakamotoshop.jpeg" },
+      { name: "大佛&神神廻", image: "/images/IMG_8782.PNG" },
+      { name: "月山習", image: "/images/IMG_8755.PNG" },
+      { name: "七陰", image: "/images/381_deck.webp" },
+      { name: "齋藤一", image: "/images/IMG_8761.PNG" },
+      { name: "瑪奇瑪", image: "/images/386_deck.webp" },
+      { name: "忍野忍", image: "/images/IMG_8816.PNG" },
+      { name: "碧翠絲", image: "/images/IMG_8819.PNG" },
+      { name: "補習組", image: "/images/IMG_8766.PNG" },
+      { name: "學生會", image: "/images/IMG_8834.PNG" },
+      { name: "蕾姆&昂", image: "/images/IMG_8762.PNG" },
+      { name: "藍rider", image: "/images/340_5deck.webp" },
+      { name: "飛信隊", image: "/images/IMG_1425.PNG" },
+      { name: "清夏&莉莉婭", image: "/images/207_deck.webp" },
+      { name: "米利安", image: "/images/283_deck.webp" },
+      { name: "早川秋&姬野", image: "/images/385_deck.webp" },
+      { name: "彌勒", image: "/images/389_deck.webp" },
+      { name: "信號機", image: "/images/IMG_8423.PNG" },
+      { name: "千礦&伯理", image: "/images/IMG_8744.PNG" },
+      { name: "CCG", image: "/images/IMG_8756.PNG" },
+      { name: "Fire Bomber", image: "/images/IMG_8786.PNG" },
+      { name: "進擊的巨人", image: "/images/IMG_8796.PNG" },
+    ],
   };
 
   return (
@@ -92,7 +92,8 @@ export default function Home() {
             {/* Tier Header */}
             <div className="border border-red-500 rounded-lg p-4 mb-4 bg-gray-900">
               <h2 className="text-2xl font-bold text-white text-center">
-                {tier}
+                {/* 顯示時將 T1_5 轉換回 T1.5 */}
+                {tier.replace('_', '.')}
               </h2>
             </div>
 
