@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "HongKong Union Arena",
-  description: "整合香港最新的UA排名與分析",
+  description: "整合香港最新的UA排名與分析，整理當前的環境 Meta Deck 分佈",
 };
 
 export default function RootLayout({
